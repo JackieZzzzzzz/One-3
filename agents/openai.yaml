@@ -1,0 +1,7 @@
+interface:
+  display_name: "一主三子（手动开启）"
+  short_description: "仅由你主动开启当前任务，主控参考任务类型和风险选择角色，减少重复分析"
+  default_prompt: "使用 $one-main-three 完成以下任务；由主控参考任务类型、风险和上下文负担选择规划师、DSH 和独立审查者，不要求全部启动。"
+
+policy:
+  allow_implicit_invocation: false
